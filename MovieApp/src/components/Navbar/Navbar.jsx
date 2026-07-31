@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="navbar-left">
-            <img src="{logo}" />
+            <img src={logo} />
             <ul>
                 <li>Home</li>
                 <li>TV Shows</li>
@@ -19,12 +19,12 @@ const Navbar = () => {
             </ul>
         </div>
         <div className="navbar-right">
-            <img src="{search_icon}" className='icons' />
+            <img src={search_icon} className='icons' />
             <p>children</p>
-            <img src="{bell_icon}" className='icons' />
+            <img src={bell_icon}className='icons' />
             <div className="navbar-profile">
-                <img src="{profile_img}" className='profile' />
-                <img src="{caret_icon}" className='profile' />
+                <img src={profile_img} className='profile' />
+                <img src={caret_icon} className='profile' />
                 <div className="dropdown">
                     <p>Sign Out</p>
                 </div>
