@@ -69,3 +69,6 @@
 .hero-btns .dark-btn:hover {
     background: rgba(109, 109, 110, 0.5);
 }
+.more-cards{
+    padding-left: 6%;
+}
